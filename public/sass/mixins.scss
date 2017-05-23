@@ -1,0 +1,17 @@
+@mixin fullwidth{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+@mixin inner{
+	max-width: 1100px;
+	height: auto;
+	margin: auto;
+}
+
+@mixin clearfix{
+	content: "";
+	display: block;
+	clear: both;	
+}
