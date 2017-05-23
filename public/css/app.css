@@ -21,4 +21,13 @@ fieldset, img {
   margin: 0 auto;
   box-sizing: border-box; }
 
+body {
+  background-image: url("../../public/images/background.jpg");
+  background-size: cover; }
+
+.outerwrapper {
+  width: 100%;
+  height: auto;
+  margin: auto; }
+
 /*# sourceMappingURL=app.css.map */
