@@ -3,9 +3,6 @@ html, body, ul, ol, li, form, fieldset, legend, div {
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  font-size: 13px; }
-
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0; }
@@ -21,13 +18,59 @@ fieldset, img {
   margin: 0 auto;
   box-sizing: border-box; }
 
+html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0; }
+
 body {
   background-image: url("../../public/images/background.jpg");
-  background-size: cover; }
+  background-repeat: no-repeat;
+  font-family: "Proxima Nova", sans-serif;
+  background-size: cover;
+  box-sizing: border-box; }
 
 .outerwrapper {
   width: 100%;
   height: auto;
+  margin: auto; }
+
+header {
+  width: 96%;
+  padding: 2%; }
+
+.header-left {
+  float: left; }
+  .header-left ul {
+    list-style-type: none; }
+    .header-left ul li {
+      display: inline-block; }
+      .header-left ul li i {
+        margin-right: 10px; }
+      .header-left ul li a {
+        margin: 20px;
+        font-size: 14px;
+        color: #FFF; }
+
+.header-right {
+  font-size: 14px;
+  float: right;
+  color: #FFF; }
+  .header-right i {
+    margin-right: 10px; }
+  .header-right:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+main {
+  padding: 3%; }
+
+.main-inner {
+  max-width: 600px;
+  background-color: #FFF;
+  height: 50px;
+  margin-top: 150px !important;
   margin: auto; }
 
 /*# sourceMappingURL=app.css.map */
