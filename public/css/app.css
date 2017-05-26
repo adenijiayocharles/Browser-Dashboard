@@ -73,4 +73,24 @@ main {
   margin-top: 150px !important;
   margin: auto; }
 
+footer {
+  width: 96%;
+  padding: 2%;
+  margin-top: 220px; }
+
+.footer-left {
+  float: left; }
+
+.footer-right {
+  float: right; }
+  .footer-right:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .footer-right span {
+    display: inline-block;
+    padding: 12px;
+    background: #FFF;
+    cursor: pointer; }
+
 /*# sourceMappingURL=app.css.map */
