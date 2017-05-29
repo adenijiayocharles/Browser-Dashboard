@@ -38,7 +38,7 @@ body {
 header {
   width: 96%;
   padding: 1% 2%;
-  margin-bottom: 150px; }
+  margin-bottom: 140px; }
   header:after {
     content: "";
     display: block;
@@ -69,9 +69,19 @@ main {
 
 .main-inner {
   max-width: 600px;
-  background-color: #FFF;
-  height: 50px;
-  margin: auto; }
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px; }
+
+.time-box {
+  width: 190px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  text-align: center; }
+  .time-box h3 {
+    font-size: 100px;
+    color: #FFF; }
 
 footer {
   width: 96%;
