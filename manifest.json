@@ -1,0 +1,5 @@
+{
+	"manifest_version": 2,
+	"name": "Dashboard",
+	"description": "This extension replaces the default new tab page. It shows the current time, etc"
+}
