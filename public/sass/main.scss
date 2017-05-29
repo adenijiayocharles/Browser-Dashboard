@@ -1,19 +1,17 @@
 main{
-	padding: 3%;
+	padding: 2% 3%;
 }
 
 .main-inner{
 	max-width: 600px;
 	height: auto;
 	margin: auto;
-	margin-bottom: 50px;
 }
 
 .time-box{
-	width: 190px;
+	max-width: auto;
+	margin: auto;
 	height: auto;
-	float: left;
-	margin-right: 10px;
 	text-align: center;
 
 	h3{
@@ -21,3 +19,16 @@ main{
 		color: #FFF;
 	}
 }
+
+.date-box{
+	max-width: auto;
+	margin: auto;
+	height: auto;
+	text-align: center;
+
+	h3{
+		font-size: 20px;
+		color: #FFF;
+	}	
+}
+

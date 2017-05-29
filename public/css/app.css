@@ -38,7 +38,7 @@ body {
 header {
   width: 96%;
   padding: 1% 2%;
-  margin-bottom: 140px; }
+  margin-bottom: 130px; }
   header:after {
     content: "";
     display: block;
@@ -65,28 +65,35 @@ header {
     margin-right: 10px; }
 
 main {
-  padding: 3%; }
+  padding: 2% 3%; }
 
 .main-inner {
   max-width: 600px;
   height: auto;
-  margin: auto;
-  margin-bottom: 50px; }
+  margin: auto; }
 
 .time-box {
-  width: 190px;
+  max-width: auto;
+  margin: auto;
   height: auto;
-  float: left;
-  margin-right: 10px;
   text-align: center; }
   .time-box h3 {
     font-size: 100px;
     color: #FFF; }
 
+.date-box {
+  max-width: auto;
+  margin: auto;
+  height: auto;
+  text-align: center; }
+  .date-box h3 {
+    font-size: 20px;
+    color: #FFF; }
+
 footer {
   width: 96%;
   padding: 2%;
-  margin-top: 220px;
+  margin-top: 170px;
   position: relative; }
   footer:after {
     content: "";
