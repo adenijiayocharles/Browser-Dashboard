@@ -1,6 +1,11 @@
 header{
 	width: 96%;
-	padding: 2%;
+	padding: 1% 2%;
+	margin-bottom: 150px;	
+
+	&:after{
+		@include clearfix;
+	}	
 }
 
 .header-left{
@@ -32,9 +37,5 @@ header{
 	
 	i{
 		margin-right: 10px;
-	}
-	
-	&:after{
-		@include clearfix;
 	}
 }

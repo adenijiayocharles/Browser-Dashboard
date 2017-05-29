@@ -24,3 +24,28 @@ document.getElementById("refresh").addEventListener("click", function(){
 	body.style.backgroundSize = 'cover';
 	body.style.backgroundRepeat = 'no-repeat';
 });
+
+
+document.getElementById("info").addEventListener("click", function(){
+	var infoBox = document.getElementById("info-box");
+	var displayValue = window.getComputedStyle(infoBox, null).getPropertyValue("display");
+
+	if(displayValue === "none"){
+		document.getElementById("info-box").style.display = 'block';	
+	}else if(displayValue === "block"){
+		document.getElementById("info-box").style.display = 'none';	
+	}
+
+});
+
+document.getElementById("showImage").addEventListener("click", function(){
+	var infoBox = document.getElementById("background-image-box");
+	var displayValue = window.getComputedStyle(infoBox, null).getPropertyValue("display");
+	
+	if(displayValue === "none"){
+		infoBox.style.display = 'block';	
+	}else if(displayValue === "block"){
+		infoBox.style.display = 'none';	
+	}
+
+});
