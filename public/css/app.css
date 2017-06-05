@@ -120,9 +120,13 @@ main {
   .notes-header h4 {
     color: #FFF;
     float: left; }
+    .notes-header h4 img {
+      vertical-align: -10px;
+      margin-left: 10px; }
   .notes-header h5 {
     color: #FFF;
-    float: right; }
+    float: right;
+    margin-top: 5px; }
   .notes-header:after {
     content: "";
     display: block;
