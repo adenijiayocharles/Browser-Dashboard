@@ -146,6 +146,8 @@ main {
   cursor: pointer; }
   .notes-content:hover {
     background-color: #F5F5F5; }
+  .notes-content:active {
+    background-color: #E3E2E0; }
   .notes-content span {
     display: block; }
     .notes-content span:nth-of-type(1) {
