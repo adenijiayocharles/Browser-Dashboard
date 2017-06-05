@@ -96,6 +96,7 @@ main {
   width: 100%;
   height: 100%;
   font-size: 14px;
+  display: none;
   top: 0;
   left: 0; }
 
@@ -116,6 +117,16 @@ main {
   padding: 3% 2%;
   background: #42445B; }
   .notes-header h4 {
+    color: #FFF;
+    float: left; }
+  .notes-header h5 {
+    color: #FFF;
+    float: right; }
+  .notes-header:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .notes-header a {
     color: #FFF; }
 
 .notes-main {
