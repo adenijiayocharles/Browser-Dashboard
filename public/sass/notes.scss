@@ -17,12 +17,17 @@
 	left: 50%;
 	background: rgba(244,245,248, .8);
 	transform: translate(-50%, 0);
+}
 
-	header{
-		width: 96%;
-		height: 50px;
-		margin: auto;
-		background: #42445B;
+.notes-header{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 3% 2%;
+	background: #42445B;
+
+	h4{
+		color: #FFF;
 	}
 }
 
