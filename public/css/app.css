@@ -142,7 +142,8 @@ main {
   height: auto;
   margin: auto;
   padding: 2%;
-  border-bottom: 1px solid #F5F5F5; }
+  border-bottom: 1px solid #F5F5F5;
+  cursor: pointer; }
   .notes-content:hover {
     background-color: #F5F5F5; }
   .notes-content span {
