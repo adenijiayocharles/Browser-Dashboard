@@ -47,5 +47,4 @@ document.getElementById("showImage").addEventListener("click", function(){
 	}else if(displayValue === "block"){
 		infoBox.style.display = 'none';	
 	}
-
 });
