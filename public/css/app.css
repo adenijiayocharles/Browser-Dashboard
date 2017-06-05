@@ -96,7 +96,6 @@ main {
   width: 100%;
   height: 100%;
   font-size: 14px;
-  display: none;
   z-index: 99999999999999999;
   top: 0;
   left: 0; }
@@ -141,6 +140,15 @@ main {
   overflow-y: scroll;
   margin: 7px auto;
   background: #FFF; }
+
+.notes-edit-area {
+  width: 98%;
+  height: 400px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  margin: 7px auto;
+  display: none;
+  background: #000; }
 
 .notes-content {
   width: 100%;
