@@ -1,0 +1,15 @@
+input{
+	width: 100%;
+	outline: none;
+	border: none;
+
+	&[type="text"]{
+
+	}
+}
+
+textarea{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+}

@@ -96,6 +96,7 @@ main {
   width: 100%;
   height: 100%;
   font-size: 14px;
+  display: none;
   z-index: 99999999999999999;
   top: 0;
   left: 0; }
@@ -141,15 +142,6 @@ main {
   margin: 7px auto;
   background: #FFF; }
 
-.notes-edit-area {
-  width: 98%;
-  height: 400px;
-  overflow-y: hidden;
-  overflow-y: scroll;
-  margin: 7px auto;
-  display: none;
-  background: #000; }
-
 .notes-content {
   width: 100%;
   height: auto;
@@ -167,6 +159,37 @@ main {
       color: #000;
       font-weight: 600;
       margin-bottom: 5px; }
+
+.notes-edit-area {
+  width: 98%;
+  height: 400px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  margin: 7px auto;
+  display: none;
+  background: #000; }
+
+.notes-title {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 2%; }
+
+.notes-body {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 2%; }
+
+input {
+  width: 100%;
+  outline: none;
+  border: none; }
+
+textarea {
+  width: 100%;
+  height: 300px;
+  margin: auto; }
 
 footer {
   width: 96%;
