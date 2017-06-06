@@ -96,7 +96,6 @@ main {
   width: 100%;
   height: 100%;
   font-size: 14px;
-  display: none;
   z-index: 99999999999999999;
   top: 0;
   left: 0; }
@@ -166,30 +165,44 @@ main {
   overflow-y: hidden;
   overflow-y: scroll;
   margin: 7px auto;
-  display: none;
-  background: #000; }
+  display: none; }
 
+.notes-submit,
+.notes-body,
 .notes-title {
   width: 100%;
   height: auto;
   margin: auto;
-  padding: 2%; }
-
-.notes-body {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  padding: 2%; }
+  padding: 1% 2%; }
 
 input {
-  width: 100%;
   outline: none;
-  border: none; }
+  border: none;
+  font-family: "Proxima Nova", sans-serif; }
+  input[type="text"] {
+    width: 97.5%;
+    padding: 1%;
+    border: 1px solid #F5F5F5; }
+  input[type="submit"] {
+    width: 200px;
+    background: #42445B;
+    padding: 1%;
+    border: 1px solid #42445B;
+    color: #FFF;
+    cursor: pointer; }
+    input[type="submit"]:hover {
+      background: #D66049;
+      padding: 1%;
+      border: 1px solid #D66049; }
 
 textarea {
-  width: 100%;
-  height: 300px;
-  margin: auto; }
+  width: 97.5%;
+  padding: 1%;
+  height: 250px;
+  margin: auto;
+  font-family: "Proxima Nova", sans-serif;
+  border: 1px solid #F5F5F5;
+  outline: none; }
 
 footer {
   width: 96%;

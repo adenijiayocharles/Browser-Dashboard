@@ -1,15 +1,36 @@
 input{
-	width: 100%;
 	outline: none;
 	border: none;
+	font-family: $fontFamily;
 
 	&[type="text"]{
-
+		width: 97.5%;
+		padding: 1%;
+		border: 1px solid #F5F5F5;
 	}
+
+	&[type="submit"]{
+		width: 200px;
+		background: #42445B;
+		padding: 1%;
+		border: 1px solid #42445B;
+		color: #FFF;
+		cursor: pointer;
+
+		&:hover{
+			background: #D66049;
+			padding: 1%;
+			border: 1px solid #D66049;
+		}
+	}	
 }
 
 textarea{
-	width: 100%;
-	height: 300px;
+	width: 97.5%;
+	padding: 1%;
+	height: 250px;
 	margin: auto;
+	font-family: $fontFamily;
+	border: 1px solid #F5F5F5;
+	outline: none;
 }
