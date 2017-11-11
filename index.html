@@ -12,57 +12,31 @@
 
 	<div class="notes-background">
 		<div class="notes">
-			<div class="notes-header">
-				<h4>NOTES 
-					<a href="javascript:;" id="new-note"><img src="public/images/new-note.png"></a>
-				</h4>
-				<h5><a href="javascript:;" id="notes-close">close</a></h5>
+			<div class="notes-view">
+				dssdsdf sdsd
+			</div>	
+			<div class="edit">		
+				<div class="notes-header">
+					<h4>NOTES 
+						<a href="javascript:;" id="new-note"><img src="public/images/new-note.png"></a>
+					</h4>
+					<h5><a href="javascript:;" id="notes-close">close</a></h5>
+				</div>
+				<div class="notes-edit-area">
+					<div class="notes-title">
+						<label> Title </label>
+						<input type="text" name="" id="notes-title">
+					</div>
+					<div class="notes-body">
+						<textarea id="notes-body"></textarea>
+					</div>
+					<div class="notes-submit">
+						<input type="submit" id="submit-note" name="" onclick="addNotes()" value="SAVE NOTE">
+					</div>
+				</div>
 			</div>
-			<div class="notes-edit-area">
-				<div class="notes-title">
-					<label> Title </label>
-					<input type="text" name="">
-				</div>
-				<div class="notes-body">
-					<textarea></textarea>
-				</div>
-				<div class="notes-submit">
-					<input type="submit" name="" value="SAVE NOTE">
-				</div>
-			</div>
-			<div class="notes-main">
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>
-				<div class="notes-content"> 
-					<span> Title - Aug 12, 2017 </span>
-					<span>Lorem ipsum </span>
-				</div>																				
+			<div class="notes-main" id="notemain">
+																		
 			</div>
 		</div>
 	</div>
@@ -112,6 +86,8 @@
 
 	<script type="text/javascript" src="public/js/background.js"></script>
 	<script type="text/javascript" src="public/js/time.js"></script>
+	<script type="text/javascript" src="public/js/indexedDb.js"></script>
 	<script type="text/javascript" src="public/js/notes.js"></script>
+
 </body>
 </html>

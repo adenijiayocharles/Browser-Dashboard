@@ -13,5 +13,10 @@ document.getElementById("new-note").addEventListener("click",function(){
 	var notesShowArea = document.getElementsByClassName("notes-main")[0];
 	notesShowArea.style.display = 'none';
 	notesEditArea.style.display = 'block';
-
 });
+
+function show(arg){
+	document.getElementsByClassName("edit")[0].style.display = 'none';
+	document.getElementsByClassName("notes-main")[0].style.display = 'none';
+	document.getElementsByClassName("notes-view")[0].style.display = 'block';
+}

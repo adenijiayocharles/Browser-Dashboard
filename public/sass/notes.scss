@@ -106,3 +106,12 @@
 	margin: auto;
 	padding: 1% 2%;
 }
+
+.notes-view{
+	width: 98%;
+	height: 400px;
+	overflow-y: hidden;
+	overflow-y: scroll;
+	margin: 7px auto;
+	display: none;
+}
